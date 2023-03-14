@@ -1,0 +1,29 @@
+{
+  "name": "codenpmpackage",
+  "version": "1.0.0",
+  "description": "A library to colorify the logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rishabh-Pal/Codenpm-package.git"
+  },
+  "keywords": [
+    "console log colors",
+    "colorify logs"
+  ],
+  "author": "Rishabh Pal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rishabh-Pal/Codenpm-package/issues"
+  },
+  "homepage": "https://github.com/Rishabh-Pal/Codenpm-package#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "files":["lib/**/*"]
+}
